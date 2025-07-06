@@ -1,0 +1,24 @@
+# Build outputs
+bin/*.o
+bin/*.exe
+*.o
+*.exe
+
+# Generated shader files
+*.vert.glsl
+*.frag.glsl
+*.meta
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log 
