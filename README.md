@@ -1,6 +1,6 @@
 # FX Shader System
 
-A minimal, handmade shader system inspired by RAD Game Tools, Casey Muratori, and Jonathan Blow. This project provides a custom .fx shader language (HLSL-lite style), a compiler CLI tool, and a C runtime loader for OpenGL 3.3 core.
+A minimal, handmade shader system inspired by RAD Game Tools, Casey Muratori, and Jonathan Blow. This project provides a custom .fx shader language (HLSL-lite style).
 
 ## Philosophy
 
@@ -20,9 +20,6 @@ A minimal, handmade shader system inspired by RAD Game Tools, Casey Muratori, an
 │   └── fx_runtime.c # Runtime implementation
 ├── tests/         # Test shaders and test code
 │   └── test.fx    # Test shader file
-├── examples/      # Example usage
-│   ├── example.c  # Runtime usage example
-│   └── basic_lit.fx # Example shader
 ├── bin/           # Build outputs
 │   └── fxc.exe    # Compiled compiler tool
 └── build.bat      # Build script
